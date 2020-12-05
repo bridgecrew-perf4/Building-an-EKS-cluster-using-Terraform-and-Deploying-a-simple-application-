@@ -1,7 +1,8 @@
 # Building-an-EKS-cluster-using-Terraform-and-Deploying-a-simple-Hello World application hosted on EKS cluster.
+
 1) This repository contains all the relevant Terrform and CloudFormation codes that you need to deploy an EKS Cluster on AWS and also Deployment,Service,ConfigMaps and other Kubernetes objects definition files that is required to host an application on Kubernetes.I have tried to automate this as much as I can & avoid manual deployments.
 
-2) Provisioning of initial components like EKS VPC has been done using CloudFormation and the actual EKS Cluster with Cluster IAM Roles etc has been using Terraform codes.
+2) Provisioning of initial components like EKS VPC has been done using CloudFormation and the actual EKS Cluster with Cluster IAM Roles etc has deployed been using Terraform codes.
 
 3) Provisioned a simple Hello World application as part of Kubernetes Deployment which runs on port 80 and have also configured a service.You can access the application by pasting the hostname of the service(a384a74b37062417e9cb0a23bac6ef0c-1050431180.eu-central-1.elb.amazonaws.com) in a browser of your choice.
 
