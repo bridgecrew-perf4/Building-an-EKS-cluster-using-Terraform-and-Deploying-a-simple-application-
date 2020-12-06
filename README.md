@@ -12,7 +12,7 @@
 
 6) All the relevant codes to deploy the VPC,EKS Cluster(.tf files) and YAML files to deploy the application,prometheus,alert manager are present.
 
-7) Output & Screenshots.docx file gives you the output & screenshots of the actual deployment which I have done.
+7) Output & Screenshots.docx file gives you the artifacts & screenshots of the actual deployment which I have done.
 
 8) Output of EKS Deployment using Terraform.txt file contains the output of EKS deployment using Terraform which will give you an understanding on how can we deploy the tf files.
 
